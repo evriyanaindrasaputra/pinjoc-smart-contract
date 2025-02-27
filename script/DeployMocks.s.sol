@@ -124,6 +124,7 @@ contract DeployMocks is DeployHelpers {
             new MockToken("Mock Chainlink", "MLINK", 18),
             new MockToken("Mock AAVE", "MAAVE", 18)
         ];
+        // hallo
 
         for (uint256 i = 0; i < collaterals.length; i++) {
             console.log(
